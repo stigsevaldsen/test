@@ -1,0 +1,6 @@
+#terminal_script.txt
+
+cd website/jmaurit.github.io
+git add . 
+git commit -m "Blog post half_assed" 
+git push

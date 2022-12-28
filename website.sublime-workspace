@@ -1,0 +1,957 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"SED",
+				"SEDataZ"
+			],
+			[
+				"SEprice",
+				"SEPrice_work_tplus1"
+			],
+			[
+				"oil",
+				"oil_price_real_l6"
+			],
+			[
+				"perc",
+				"perc_75_price"
+			],
+			[
+				"perc_",
+				"perc_25_price"
+			],
+			[
+				"av",
+				"avg_price"
+			],
+			[
+				"var_",
+				"var_quantity"
+			],
+			[
+				"mean",
+				"mean_quantity"
+			],
+			[
+				"series",
+				"series_lag"
+			],
+			[
+				"field",
+				"field_inspection"
+			],
+			[
+				"gam_price_over_",
+				"gam_price_over_2d_s_price"
+			],
+			[
+				"summar",
+				"summary_over_gamma"
+			],
+			[
+				"summary",
+				"summary_comp_under"
+			],
+			[
+				"smooth",
+				"smooth_price_2"
+			],
+			[
+				"statfjord",
+				"statfjord_plot"
+			],
+			[
+				"size",
+				"size_vs_init_prod"
+			],
+			[
+				"reco",
+				"recoverable_oil"
+			],
+			[
+				"invest_per_prd",
+				"invest_per_prod_l5"
+			],
+			[
+				"real",
+				"oil_price_real"
+			],
+			[
+				"fields",
+				"fields_p"
+			],
+			[
+				"peak",
+				"peak_to_end"
+			],
+			[
+				"res",
+				"res_fit_se"
+			],
+			[
+				"smooth_ben",
+				"smooth_bench_split"
+			],
+			[
+				"year",
+				"year_prod"
+			],
+			[
+				"min",
+				"min_time_to_peak"
+			],
+			[
+				"invest",
+				"investmentMillNOK_real"
+			],
+			[
+				"fitted",
+				"fitted_year_prod"
+			],
+			[
+				"time",
+				"time_to_peak"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 59777,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cv_new.tex",
+			"settings":
+			{
+				"buffer_size": 16466,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "website.css",
+			"settings":
+			{
+				"buffer_size": 3872,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog_posts.html",
+			"settings":
+			{
+				"buffer_size": 209136,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cv_short.tex",
+			"settings":
+			{
+				"buffer_size": 2829,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "cv_short.tex"
+			}
+		},
+		{
+			"file": "python_resources.html",
+			"settings":
+			{
+				"buffer_size": 4644,
+				"line_ending": "Unix",
+				"name": "python_resources.html"
+			}
+		},
+		{
+			"file": "bayesian_resources.html",
+			"settings":
+			{
+				"buffer_size": 3947,
+				"line_ending": "Unix",
+				"name": "bayesian_resources.html"
+			}
+		},
+		{
+			"file": "r_resources.html",
+			"settings":
+			{
+				"buffer_size": 1484,
+				"line_ending": "Unix",
+				"name": "r_resources.html"
+			}
+		},
+		{
+			"contents": "<!-- data_resources.html -->\n\n<html lang=\"en\">\n\n<head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>\n\n     <link rel=\"stylesheet\" type=\"text/css\" href=\"smallscreen.css\" media=\"only screen and (max-width: 1000px)\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"website.css\"/>\n\n        <meta charset=\"utf-8\">\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n        <title>johannes mauritzen's website</title>\n        <meta name=\"viewport\" content=\"width=device-width\">\n\n</head>\n\n\n\n<body>\n\n<header>\n</header>\n\n<section id=\"main_menu\"> \n<nav> \n    <ul>\n        <li><a href=\"index.html#bio\">bio</a></li>\n        <li><a href=\"index.html#cv\">cv</a></li>\n        <li><a href=\"index.html#research\">research</a></li>\n        <li><a href=\"index.html#resources\">resources</a></li>\n        <li><a href=\"teaching.html\">teaching</a></li>\n        <li><a href=\"index.html#blog\">simple minded blog</a></li>\n        <li><a href=\"http://jmaurit.github.io/norwayeconomy/\">norway's economy data blog</a></li>\n    </ul>\n</nav>\n</section>\n\n<section id=\"data_resources\">\n\n\n\n<ul>\n<h1>Data sources on the web: only partially organized for the moment.  Mostly about energy</h1>\n\n<h1>Macroeconomic Data</h1>\n\n<li><a href=\"http://www.bis.org/statistics/cbpol.htm\">Central Bank Policy Rates</a></li>\n<li><a href=\"http://data.ssb.no/api/v0/dataset/?lang=en\">SSB API</a></li>\n<li><a href=\"http://econ.worldbank.org/WBSITE/EXTERNAL/EXTDEC/EXTRESEARCH/EXTPROGRAMS/EXTMACROECO/0,,contentMDK:20392406~menuPK:836389~pagePK:64168182~piPK:64168060~theSitePK:477872,00.html\">World Bank Data</a></li>\n<li><a href=\"http://www.nber.org/data/\">NBER Data</a></li>\n<li><a href=\"http://www.norges-bank.no/en/Statistics/\">Norges Bank Data</a></li>\n<li><a href=\"https://www.ecb.europa.eu/stats/services/sdw/html/index.en.html\">European Central Bank Data Warehouse</a></li>\n<li><a href=\"http://www.bls.gov/data/\">US Bureau of Labor Statistics</a></li>\n<li><a href=\"http://www.ers.usda.gov/data-products/international-macroeconomic-data-set.aspx\">USDA International Macroeconomic Data Set</a></li>\n<li><a href=\"http://www.imf.org/en/Data\">IMF Data</a></li>\n<li><a href=\"http://ec.europa.eu/eurostat/data/database\">Eurostat</a></li>\n<li><a href=\"https://fred.stlouisfed.org/\">Federal Reserve Economic Data</a></li>\n<li><a href=\"https://www.ons.gov.uk/\">UK Office of National Statistics</a></li>\n<li><a href=\"http://www.rug.nl/research/ggdc/data/pwt/\">Penn World Data Tables</a></li>\n<li><a href=\"http://finance.yahoo.com/market-overview/\">Yahoo Finance</a></li>\n\n<li><a href=\"http://www.equality-of-opportunity.org/data/\">Inequality data</a></li>\n<li><a href=\"https://www.gc.cuny.edu/Page-Elements/Academics-Research-Centers-Initiatives/Centers-and-Institutes/Stone-Center-on-Socio-Economic-Inequality/Core-Faculty,-Team,-and-Affiliated-LIS-Scholars/Branko-Milanovic/Datasets\"> More inequality data</a></li>\n<li><a href=\"http://www.bankofengland.co.uk/research/Pages/onebank/datasets.aspx\">Bank of England datasets</a></li>\n<li><a href=\"http://www.bankofengland.co.uk/research/Pages/onebank/threecenturies.aspx\">Bank of England, Three centuries of macroeconomic data.</a></li>\n\n<h1>US Data</h1>\n\n<li><a href=\"https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_pums_csv_2011_2015&prodType=document\">American Community Survey Microdata</a></li>\n\n<li><a href=\"https://quickstats.nass.usda.gov/\"></a>USDA Data</li>\n\n<li><a href=\"https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/\">Rural-Urban county codes</a></li>\n\n<li><a href=\"https://www.ers.usda.gov/data-products/natural-amenities-scale/\">USDA Natural Amenities by County data</a></li>\n\n<li><a href=\"https://www.cdc.gov/nchs/nvss/mortality_methods.htm\">CDC Mortality Data</a></li>\n\n<li><a href=\"https://public.enigma.com/\">Open data list from enigma</a></li>\n\n\n\n\n<h1>Electricity Data</h1>\n\n\n<li><a href=\"https://www.nve.no/energiforsyning-og-konsesjon/vindkraft/\"></a>Norwegian wind production data</li>\n\n<li><a href=\"https://www.nve.no/energiforsyning-og-konsesjon/vindkraft/vindressurser/\">Norwegian wind resources.</a></li>\n\n<li><a href=\"https://openpv.nrel.gov/\">NREL Open Solar Installation Data</a></li>\n\n<li><a href=\"https://data.ny.gov/Energy-Environment/Solar-Electric-Programs-Reported-by-NYSERDA-Beginn/3x8r-34rs\">New York State Solar Installations</a></li>\n\n<li><a href=\"http://www.svk.se/Drift-och-marknad/Statistik/Elstatistik-per-elomrade/\n\">Swedish electricity production</a>\n</li>\n\n<li><a href=\"http://www.thewindpower.net/\">Wind power database (paid service)</a>\n</li>\n\n\n<li><a href=\"http://www.renewableuk.com/en/renewable-energy/wind-energy/uk-wind-energy-database/\">UK wind energy data base</a>\n</li>\n\n<li><a href=\"http://www.eia.gov/electricity/data/eia860/\">IEA Form 860 - Reporting data on all powerplants in US</a></li>\n\n<li><a href=\"https://www.renewablesandchp.ofgem.gov.uk/\">UK register of Renewable energy and CHP plants</a>\n</li>\n\n<li><a href=\"https://data.cityofchicago.org/Environment-Sustainable-Development/Average-Electricity-Usage-per-Square-Foot-by-Commu/usfg-z9mx\">Chicago Energy Usage</a>\n</li>\n\n<li><a href=\"http://www.terna.it/default/Home/SISTEMA_ELETTRICO/transparency_report/Generation/Forecast_generation_wind.aspx\">Italian Generation</a>\n</li>\n\n<li><a href=\"http://www.ree.es/en/activities/realtime-demand-and-generation\">Spanish electricity data - from grid operator</a>\n</li>\n\n<li><a href=\"http://www.bmreports.com/\">British electricity Data</a>\n</li>\n\n<li><a href=\"http://www.energy.ca.gov/sitingcases/all_projects.html\">California energy plants</a>\n</li>\n\n<li><a href=\"http://www.energinet.dk\">Danish TSO</a>\n</li>\n \n<li><a href=\"http://unstats.un.org/unsd/energy/default.html\">UN energy statistics</a>\n </li>\n\n<li><a href=\"http://www.ornl.gov/sci/ees/technology_supply.shtml\">oak ridge national labratory</a>\n</li>\n\n<li><a href=\"http://www.ornl.gov/sci/electricdelivery/\">ORNL transmission</a>\n</li>\n \n<li><a href=\"http://www.nordel.org/Content/Default.asp\">organisation for the nordic TSO's</a>\n</li>\n \n<li><a href=\"http://www.nordpoolspot.com/reports/\">nordpool historical information</a>\n</li>\n \n<li><a href=\"http://www.californiadgstats.ca.gov/\">California electricity data</a>\n</li>\n\n<li><a href=\"http://www.norned-auction.org/\">NorNed</a>\n</li>\n\n<li><a href=\"http://www.transparency.eex.com/en/\">EEX Exchange Data</a></li>\n\n<li><a href=\"http://www.transnetbw.de/de/eeg-kwk-g/eeg/eeg-anlagendaten\">EEG Plant Data</a>\n</li>\n\n<li><a href=\"http://www.californiasolarstatistics.ca.gov/current_data_files/\">California solar statistics - installation of devices from subsidy</a>\n</li>\n\n<li><a href=\"https://www.iaea.org/pris/\">Power Reactor Information System - Data on US Nuclear reactors.</a></li>\n\n\n\n\n\n<h1>Petroleum data</h1>\n\n<li><a href=\"https://www.eia.gov/petroleum/wells/\">EIA data on oil and gas well production</a></li>\n\n<li><a href=\"http://www.rrc.state.tx.us/oil-gas/\">Oil and gas drilling data from texas rail road commission</a></li>\n\n<li><a href=\"http://www.globalccsinstitute.com/data/status-ccs-project-database\">CCS Data</a>\n\n</li>\n\n<li><a href=\"http://www.ens.dk/undergrund-forsyning/olie-gas/oliegas-relaterede-data\">Danish Petroleum Production Data</a></li>\n\n<li><a href=\"https://www.gov.uk/oil-and-gas-uk-field-data\">UK petroleum  production data</a>\n</li>\n\n<li><a href=\"http://www2.env.go.jp/chemi/prtr/prtrdata/prtr/localstart.php\">UN petroleum emissions data</a>\n</li>\n\n<li><a href=\"http://factpages.npd.no/factpages/Default.aspx?culture=no</li>\n\">Data on Norwegian oil production</a>\n\n<li><a href=\"http://www.jodidata.org/\">Oil joint data initiative</a>\n</li>\n\n<li><a href=\"https://jimcust.wordpress.com/research/\">Data sets on petroleum and institutions, from Jim Cust</a></li>\n\n\n\n<h1>General Energy Data Sources</h1>\n\n<li><a href=\"http://www.eia.gov/beta/api/\"></a>EIA API\n</li>\n\n<li><a href=\"http://www.eia.gov/state/maps.cfm\">EIA Energy Mapping Portal</a>US \n</li>\n\n<li><a href=\"http://geo.usace.army.mil/pgis/f?p=397:1:0\">Dam Data</a>\n</li>\n\n\n<h1>Environment and emissions data</h1>\n\n<li><a href=\"http://edgar.jrc.ec.europa.eu\">EDGAR Emissions Data</a></li>\n\n<li><a href=\"http://www.xn--miljdirektoratet-oxb.no/no/Tjenester-og-verktoy/Database/\">Norwegian Environmental Directorate Databases</a>\n</li>\n\n<li><a href=\"http://www.kvoteregister.no/\">Norwegian CO2 Quota Register</a> \n</li>\n\n<li><a href=\"http://www.norskeutslipp.no/\"></a>Norwegian Emissions Data\n</li>\n\n<li><a href=\"http://www.ceip.at/webdab-emission-database\n\">European emissions</a>\n</li>\n\n<li><a href=\"http://www.nilu.no/projects/ccc/onlinedata/\n\">Air pollution data from NILU</a>\n</li>\n\n<li><a href=\"http://www.neonscience.org/data-resources\">Ecological Data fra National Science Foundation</a></li>\n\n\n<h1>Climate and weather data</h1>\n\n<li><a href=\"http://om.yr.no/verdata/\">Norwegian Meteorological Center Data</a>\n</li>\n\n<li><a href=\"http://www.climate.gov/maps-data\"></a>Data from NOAA climate\n</li>\n\n\n\n<h1>City data</h1>\n\n<li><a href=\"https://data.cityofchicago.org/\">Chicago Data</a>\n</li>\n\n<li><a href=\"http://data.london.gov.uk/\"></a>London City Data\n</li>\n\n<li><a href=\"http://donnees.ville.montreal.qc.ca/\">Open Data from Montreal</a>\n</li>\n\n<li><a href=\"http://www.city-data.com/\">City data</a>\n</li>\n\n\n\n<h1>Transport data</h1>\n\n<li><a href=\"http://nobil.no/\">Norwegian Charging Stations API</a>\n</li>\n\n<li><a href=\"http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml\">Official NYC Taxi fare data</a></li>\n\n<li><a href=\"http://chriswhong.com/open-data/foil_nyc_taxi/\">NYC Taxi fare data</a></li>\n\n\n<li><a href=\"http://data.norge.no/data/norsk-rikskringkasting/trafikkmeldinger-fra-ditno-statens-vegvesen-nrk-og-ruter\">Norwegian Traffic Reports</a>\n</li>\n\n<li><a href=\"http://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=289&DB_Short_Name=Origin%20and%20Destination%20Survey\">DB1B database</a>, aka the Airline Origin and Destination Survey. This is a 10% sample of all tickets for flights originating in the US, released quarterly since the 1993</li>\n\n<li><a href=\"http://cf.datawrapper.de/DJ3mf/3/\">New York bikeshare program</a>\n\n</li>\n\n<li><a href=\"http://www.capitalbikeshare.com/trip-history-data\n\">Bikeshare program Washington D.C.</a>\n</li>\n\n<li><a href=\"http://hubwaydatachallenge.org/trip-history-data/\n\">Bikeshare data Boston</a>\n</li>\n\n<h1>Various other data sources</h1>\n\n<li><a href=\"https://www.propublica.org/datastore/\">Pro Publica, Data Store</a></li>\n\n<li><a href=\"http://cjlab.stanford.edu/2015/09/30/lab-launch-and-data-sets/\">\"Deep and interesting\" datasets by Dan Nguyen, Stanford</a>\n\n<li><a href=\"http://www.equality-of-opportunity.org/index.php/data\">Equality data from Hardvard Equality of Opportunity Project</a></li>\n\n<li><a href=\"https://collegescorecard.ed.gov/\">Data on US Colleges</a></li>\n\n<li><a href=\"http://journalistsresource.org/skills/research/websites-u-s-federal-government-administrative-datasets\">Data on US government, all in one place</a>\n</li>\n\n<li><a href=\"https://dev.twitter.com/rest/public\">twitter API</a>\n</li>\n\n<li><a href=\"http://norgeshelsa.no/norgeshelsa/\">Norwegian Health Data</a>\n</li>\n\n<li><a href=\"http://hotell.difi.no/?dataset=brreg/enhetsregisteret\">Norwegian Company Registry</a>\n</li>\n\n<li><a href=\"http://www.reseptregisteret.no/\">Norwegian register of prescriptions</a>\n</li>\n\n<li><a href=\"http://data.gov.in/\">India Government Data</a>\n</li>\n\n<li><a href=\"http://www.ssb.no/mikrodata/\">Statistics Norway Microdata Application</a>\n</li>\n\n<li><a href=\"<li>\nhttp://www.census.gov/developers/data/\n</li>\">Census data API</a></li>\n\n<li><a href=\"<li>\nhttp://www.education.com/schoolfinder/tools/webservice/\n</li>\">School Database, US</a></li>\n\n<li><a href=\"http://www.zillow.com/howto/api/APIOverview.htm\">Zillow home prices</a></li>\n\n<li><a href=\"http://www.gesis.org/en/eurobarometer/data-access/\">Eurobarometer data</a></li>\n\n\n<li>Harvard Social Science Data Repository\nhttp://thedata.harvard.edu/dvn/\n</li>\n\n<li>Common European Data archive (at UiB)\nhttp://www.cessda.net/catalogue/\n</li>\n\n<li>Yahoo Data\nhttp://webscope.sandbox.yahoo.com/catalog.php?datatype=a\n</li>\n\n<li>Disaster Data\nhttp://www.r-bloggers.com/new-r-package-emdatr-global-disaster-losses-from-the-em-dat-database/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+RBloggers+%28R+bloggers%29\n</li>\n\n<li>Open Data census\nhttp://census.okfn.org/country\n</li>\n\n\n<li></li>\n\n<li>Open data repository\nhttps://opendata.socrata.com/browse?limitTo=datasets&utf8=%E2%9C%93\n</li>\n\n<li>Berkeley Earth (BEST)\n</li>\n\n<li>mineral statistics, US\nhttp://pubs.usgs.gov/ds/2005/140/</li>\n\n<li>http://www.quandl.com/</li>\n\n<li>http://ukdataservice.ac.uk/</li>\n\n<li>\nForvaltningsdatabaser\nhttp://www.nsd.uib.no/</li>\n\n<li>elcertifkatpriser\nhttp://www.skm.se/elcert.php</li>\n\n<li>NYC open data\nhttps://nycopendata.socrata.com/</li>\n\n<li>Chicago open data\nhttps://data.cityofchicago.org/</li>\n\n<li>US government data how-to's in R\nhttp://www.asdfree.com/</li>\n\n\n<li>Water data for US\nhttp://nwis.waterdata.usgs.gov/nwis</li>\n\n<li> General Social Survey\nhttp://www3.norc.org/gss+website/</li>\n\n<li>International social survey program\nhttp://www.issp.org/</li>\n\n<li>Urban data from rutgers\nhttp://policy.rutgers.edu/cupr/sonc/sonc.htm</li>\n\n<li>OECD metropolitan regions\nhttp://stats.oecd.org/Index.aspx?QueryId=23398</li>\n\n<li>HUD\nhttp://www.huduser.org/portal/datasets/socds.html</li>\n\n<li>Eurostat cities database\nhttp://epp.eurostat.ec.europa.eu/portal/page/portal/region_cities/regional_statistics/data/database\n</li>\n\n<li>Urban Audit from EU\nhttp://epp.eurostat.ec.europa.eu/portal/page/portal/region_cities/city_urban/data_cities/database_sub1\n</li>\n\n<li>european electricity trade\nhttp://www.casc.eu/en</li>\n\n<li>geospatial data\n     on sweden turbines\n     http://www.vindlov.se/sv/</li>\n\n<li>using spatial data\nhttp://www.nceas.ucsb.edu/scicomp/usecases/ReadWriteESRIShapeFiles\n</li>\n\n<li>http://www.fotdanmark.dk/\nDanish geodata</li>\n\n<li>http://www.fotdanmark.dk/Menu/Data/FOT+Funktionerne/Download\n</li>\n\n<li>http://www.inspire-danmark.dk/\n</li>\n\n<li>http://www.geodata.se/</li>\n\n<li>http://inspire-geoportal.ec.europa.eu/</li>\n\n<li>http://inspire-geoportal.ec.europa.eu/discovery/</li>\n\n<li>http://www.kms.dk/produktkatalog/gratis/kvadratnet.htmhttp://www.dst.dk/HomeDK/TilSalg/doga/emner/Kvadrat.aspx</li>\n\n\n<li>http://www.kms.dk/Produkter+og+ydelser/Produktkatalog/DAGI/DAGI.htm\n</li>\n\n<li>http://www.kms.dk/Produkter+og+ydelser/Produktkatalog/DAGI/DAGI-download.htm</li>\n\n<li>Retail electricity prices in Norway\nhttp://www.konkurransetilsynet.no/no/kraftpriser/Radata/Feilmelding/\n </li>\n\n<li>http://www.miljostatus.no/\nenvironmental data Norway</li>\n\n<li>http://www.data.gov/communities/energy\nOpen data initiative from Government</li>\n\n<li>http://www.ens.dk/DA-DK/INFO/TALOGKORT/ENERGIDATA_ONLINE/Sider/Forside.aspx</li>\n\n\n<li>http://berkeleyearth.org/dataset/\n</li>\n\n<li>http://www.eea.europa.eu/themes/air/dc\n</li>\n\n<li>http://data.gov.uk/</li>\n\n<li>Measuring worth\n(long Nominal financial time series)\nhttp://www.measuringworth.com/</li>\n\n\n<li>renewable energy data\nhttp://swera.unep.net/</li>\n\n<li>\nhttp://www.data.gov/</li>\n\n<li>https://www.entsoe.eu/</li>\n\n<li>http://www.degreedays.net/#generate\n</li>\n\n<li>German data\nhttp://www.eeg-kwk.net/de/index.htm  (common TSO page)</li>\n\n<li>http://www.amprion.net/en/wind-feed-in</li>\n\n<li>http://www.portal.euromonitor.com/PORTAL/tandc.aspx\n</li>\n\n<li> Met API\nhttp://api.met.no/</li>\n\n \n<li>Danish Energy Agency\nhttp://www.ens.dk/en-us/Sider/forside.aspx\n</li>\n\n \n<li>system price information:\n http://www.nordpoolspot.com/reports/systemprice/Post.aspx\n </li> \n\n<li>ssb: energi\nhttp://www.ssb.no/energi/</li>\n\n<li>meteorlogical institute\nhttp://retro.met.no/observasjoner/hvor.html</li>\n\n \n<li>eurostat energy\nhttp://epp.eurostat.ec.europa.eu/portal/page?_pageid=0,1136239,0_45571447&_dad=portal&_schema=PORTAL</li>\n\n<li>sweden statistics\nhttp://www.scb.se/templates/Amnesomrade____6059.asp</li>\n\n<li>danish energy statistics\nhttp://www.statbank.dk/statbank5a/default.asp?w=1280</li>\n\n\n</ul>\n</section>\n",
+			"file": "data_resources.html",
+			"file_size": 15993,
+			"file_write_time": 131574068034054951,
+			"settings":
+			{
+				"buffer_size": 16170,
+				"line_ending": "Unix",
+				"name": "data_resources.html"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "smallscreen.css",
+			"settings":
+			{
+				"buffer_size": 3648,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "teaching.html",
+			"settings":
+			{
+				"buffer_size": 1609,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "teaching.html"
+			}
+		}
+	],
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"git:push",
+				"Git: Push"
+			],
+			[
+				"git:remote",
+				"Git: Remote"
+			],
+			[
+				"gp",
+				"Git: Push Current Branch"
+			],
+			[
+				"git:status",
+				"Git: Status"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git add ",
+				"Git: Add Current File"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"p",
+				"Preferences: Browse Packages"
+			],
+			[
+				"cp",
+				"Package Control: Disable Package"
+			],
+			[
+				"latex",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"ife",
+				"Snippet: Ifelse"
+			],
+			[
+				"snippet ife",
+				"Snippet: Ifelse"
+			],
+			[
+				"snippetife",
+				"Snippet: Ifelse"
+			],
+			[
+				"snippet",
+				"Snippet: Length"
+			],
+			[
+				"sn",
+				"Snippet: For Loop"
+			],
+			[
+				"package Control: Install",
+				"Package Control: Install Package"
+			],
+			[
+				"package Control: List ",
+				"Package Control: List Packages"
+			],
+			[
+				"PACKAGE CONTROL: INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/johannesmauritzen/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/johannesmauritzen/website/jmaurit.github.io/markdown_test.html",
+		"/Users/johannesmauritzen/website/jmaurit.github.io/markdown_test.md",
+		"/Users/johannesmauritzen/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/johannesmauritzen/website/blog_text.html",
+		"/Users/johannesmauritzen/website/jmaurit.github.io/blog_posts.html",
+		"/Users/johannesmauritzen/Google Drive/marketPower/Realtime_vs_dayahead_oktober2013.tex",
+		"/Users/johannesmauritzen/Google Drive/marketPower/Realtime_vs_Dayahead_hydro_market_power_111122.tex",
+		"/Users/johannesmauritzen/Google Drive/marketPower/MarketPowerAugust2013.R",
+		"/Users/johannesmauritzen/Google Drive/marketPower/Analysis_nov_2013.r",
+		"/Users/johannesmauritzen/Google Drive/marketPower/empirical_part.tex",
+		"/Users/johannesmauritzen/Google Drive/marketPower/Realtime_vs_DayaheadAugust.tex",
+		"/Users/johannesmauritzen/Google Drive/marketPower/Analysis_may_2013.R",
+		"/Users/johannesmauritzen/Google Drive/marketPower/leftover.r",
+		"/Users/johannesmauritzen/Google Drive/github/rOil/presentations/oil_prices.tex",
+		"/Users/johannesmauritzen/Google Drive/price-spikes/r-price-spikes/AnalysisMay2013.R",
+		"/Users/johannesmauritzen/Google Drive/price-spikes/AnalysisMay2013.R",
+		"/Users/johannesmauritzen/Google Drive/price-spikes/priceSpikeAnalysis.R",
+		"/Users/johannesmauritzen/Google Drive/elbas_efficiency/elbas_ACD.r",
+		"/Users/johannesmauritzen/Google Drive/marketPower/marketPowerSeptember2013.r",
+		"/Users/johannesmauritzen/Google Drive/github/rOil/presentations/oil_pres_ifn.tex",
+		"/Users/johannesmauritzen/Google Drive/github/rOil/presentations/oil_pres1.tex",
+		"/Users/johannesmauritzen/Google Drive/github/rOil/presentations/oil_pres_ifn.txt",
+		"/Users/johannesmauritzen/Desktop/website_copy/jmaurit.github.io/index.html",
+		"/Users/johannesmauritzen/Google Drive/github/rOil/presentation/oil_pres1.tex",
+		"/Users/johannesmauritzen/Google Drive/github/rOil/oil.R",
+		"/Users/johannesmauritzen/Google Drive/github/rOil/Oil_spatial.R",
+		"/Users/johannesmauritzen/Google Drive/github/rOil/presentations/brownbag.txt",
+		"/Users/johannesmauritzen/Google Drive/github/rOil/oil_pres1.tex",
+		"/Users/johannesmauritzen/Desktop/extract.r",
+		"/Users/johannesmauritzen/Google Drive/marketPower/cleaning.R",
+		"/Users/johannesmauritzen/Google Drive/github/state_space/statespace.r",
+		"/Users/johannesmauritzen/Google Drive/github/elec_wavelet/wavelet.r",
+		"/Users/johannesmauritzen/Google Drive/github/rOil/oil_clean.R",
+		"/Users/johannesmauritzen/Google Drive/github/rOil/reserve_forecasts.r",
+		"/Users/johannesmauritzen/Google Drive/github/rOil/oil_modeling.R",
+		"/Users/johannesmauritzen/Google Drive/github/rOil/oil_modeling_prep.r",
+		"/Users/johannesmauritzen/Google Drive/github/rOil/oil_bootstrap.r",
+		"/Users/johannesmauritzen/Google Drive/github/rOil/oil_forecasting.r",
+		"/Users/johannesmauritzen/Google Drive/Oil/rOil/oil.R",
+		"/Users/johannesmauritzen/Google Drive/Oil/rOil/oil_modeling_prep",
+		"/Users/johannesmauritzen/Google Drive/Oil/rOil/#oil_modeling_prep.r",
+		"/Users/johannesmauritzen/Google Drive/website/jmaurit.github.io/index.html",
+		"/Users/johannesmauritzen/Google Drive/Oil/rOil/oil_clean.R",
+		"/Users/johannesmauritzen/Google Drive/Oil/rOil/oil_modeling.R",
+		"/Users/johannesmauritzen/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hydro_capacity_year",
+			"h3",
+			"21st",
+			"SEdata",
+			"elbas_less_spot",
+			"hyp1",
+			"failure_hydro",
+			"failure_other",
+			"failure_oil",
+			"nuclear",
+			"vinterdekk",
+			">vinterdekk\n",
+			">\n",
+			"/Users/johannesmauritzen/Google Drive/oil/figures/",
+			"fields_p"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"h1",
+			"SEData",
+			"hyp2series",
+			"hyp2",
+			"failure_gas",
+			"failure_hydro",
+			"failure",
+			"failure_other",
+			"failure_wind",
+			"failure_nuclear",
+			"failure_coal",
+			"inverted_failure",
+			"umm_inverted_failure <- melt(umm[c(1,98:121)], id.vars=\"date\")\numm_nuclear$variable<-do.call(\"rbind\", strsplit(as.character(umm_nuclear$variable), \"_\"))[,3]\nnames(umm_nuclear)[2:3]<-c(\"hour\", \"nuclear\")",
+			"varmeovn",
+			"/Users/johannesmauritzen/Google Drive/github/rOil/presentations/",
+			"fields_eko"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 59777,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2753,
+								2753
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 154.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "cv_new.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16466,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1329,
+								1329
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "website.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3872,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								44,
+								37
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "blog_posts.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 209136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1446,
+								1446
+							]
+						],
+						"settings":
+						{
+							"spell_check": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "cv_short.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2829,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2043,
+								2043
+							]
+						],
+						"settings":
+						{
+							"auto_name": "cv_short.tex",
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "python_resources.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4644,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1346,
+								1346
+							]
+						],
+						"settings":
+						{
+							"auto_name": "python_resources.html",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "bayesian_resources.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3947,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1838,
+								1838
+							]
+						],
+						"settings":
+						{
+							"auto_name": "bayesian_resources.html",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1592.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "r_resources.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1484,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1136,
+								1136
+							]
+						],
+						"settings":
+						{
+							"auto_name": "r_resources.html",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1121.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "data_resources.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16170,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8209,
+								8209
+							]
+						],
+						"settings":
+						{
+							"auto_name": "data_resources.html",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5468.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "smallscreen.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3648,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								504,
+								504
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "teaching.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1609,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								747,
+								717
+							]
+						],
+						"settings":
+						{
+							"auto_name": "teaching.html",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1114.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 256.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 124.0
+	},
+	"output.git-pull":
+	{
+		"height": 124.0
+	},
+	"output.git-push":
+	{
+		"height": 124.0
+	},
+	"output.git-remote":
+	{
+		"height": 124.0
+	},
+	"output.latex_log":
+	{
+		"height": 208.0
+	},
+	"output.latextools":
+	{
+		"height": 208.0
+	},
+	"output.markdown":
+	{
+		"height": 172.0
+	},
+	"pinned_build_system": "",
+	"project": "website.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"jmaurit",
+				"*git-status*: jmaurit.github.io"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 163.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
